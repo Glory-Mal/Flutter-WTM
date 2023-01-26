@@ -12,8 +12,7 @@ void main() {
         ),
         body: const Center(
             child: Image(
-          image: NetworkImage(
-              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj4nghXV-ZZygDiTQeH5Z7-Zj5YcVWQHEBzw&usqp=CAU'),
+          image: AssetImage('images/diamond.png'),
         )),
       ),
     ),
